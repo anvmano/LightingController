@@ -43,7 +43,7 @@ Com Arduino CLI e o indice de placas ESP32 ja configurado, execute na pasta do s
 
 ```powershell
 arduino-cli core install esp32:esp32@2.0.14
-arduino-cli lib install "NTPClient@3.2.1" "Time@1.6.1" "ArduinoJson@7.4.3" "FastLED@3.10.7"
+arduino-cli lib install "NTPClient@3.2.1" "Time@1.6.1" "ArduinoJson@7.4.3" "FastLED@3.6.0"
 arduino-cli compile --warnings all --fqbn esp32:esp32:d1_uno32 .
 ```
 
