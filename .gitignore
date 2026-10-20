@@ -1,0 +1,49 @@
+# Credenciais e configuracao local
+secrets.h
+secrets.*.h
+!secrets.example.h
+.env
+.env.*
+credentials*
+serviceAccount*.json
+firebase-adminsdk*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Compilacao Arduino/PlatformIO
+build/
+.pio/
+*.elf
+*.bin
+*.hex
+*.o
+*.a
+*.map
+*.d
+compile_commands.json
+sketch.yaml
+
+# Backups, logs e arquivos temporarios
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*.swp
+*~
+*.log
+backup/
+backups/
+logs/
+
+# Configuracoes pessoais de editores e sistema
+.vscode/
+.idea/
+.arduinoIDE/
+.DS_Store
+Thumbs.db
+desktop.ini
